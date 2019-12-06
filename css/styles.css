@@ -243,10 +243,19 @@ footer {
 
 .accordion-toggle {
   display: block;
+  background-color: #F4EDED;
+  color: #505050;
+  padding: 20px 50px 20px 25px;
+  margin: 10px;
+  text-align: left;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .accordion-content {
   display: none;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .accordion-content.active {
