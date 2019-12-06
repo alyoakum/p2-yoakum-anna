@@ -148,14 +148,14 @@ p {
 .story-header {
   color: #505050;
   font-size: 40px;
-  padding: 0px;
+  padding: 20px 20px 0px 20px;
 }
 .story-wrapper {
   padding: 50px 50px 50px 0px;
   text-align: left;
 }
 .story-wrapper img {
-  padding-right: 25px;
+  padding: 0px 35px 25px 0px;
   width: 100%;
   height: auto;
   max-width: 670px;
@@ -171,6 +171,8 @@ p {
 #myBtn {
   background-color: #909592;
   color: #fff;
+  margin-top: 0px;
+  margin-left: 40px;
 }
 
 #more {
@@ -193,7 +195,64 @@ footer {
     width: 100%;
     background-color: #B7A5A5;
     height: 100px;
+    margin-top: 50px;
 }
+/*------------CONTACT PAGE-------------*/
+.contact-header {
+  background-color: #505050;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -35px;
+}
+
+.contact-header h2 {
+  color: #fff;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.contact-wrapper h2 {
+  color: #505050;
+  font-size: 40px;
+}
+
+.contact-wrapper {
+  text-align: center;
+  padding: 50px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+    height:400px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:400px;
+    width:100%;
+    position:absolute;
+}
+
+/*------------ACCORDION------------*/
+
+.accordion-toggle {
+  display: block;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
 /* -----------MEDIA QUERIES----------- */
 @media screen and (max-width: 678px) {
   .burger {
@@ -269,5 +328,11 @@ footer {
 
   .body-container h2 {
     padding: 10px;
+  }
+
+  .story-header {
+    font-size: 24px;
+    padding-left: 40px;
+  }
 
 }
