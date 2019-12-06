@@ -43,7 +43,7 @@ header {
 }
 
 
-/* ----------- MAIN----------- */
+/* ----------- HOME: MAIN----------- */
 .main-container img {
   width: 100%;
   height: auto;
@@ -86,7 +86,7 @@ button {
   font-size: 20px;
 }
 
-/* ----------- WHAT WE DO----------- */
+/* ----------- HOME: WHAT WE DO----------- */
 .body-container {
   margin: 0 auto;
   text-align: center;
@@ -101,7 +101,6 @@ button {
 
 p {
   font-size: 16px;
-  text-align: center;
   color: #505050;
   padding: 10px 70px 20px 70px;
   line-height: 1.5em;
@@ -145,13 +144,56 @@ p {
   bottom: auto;
 }
 
-/* -----------FOOTER----------- */
-
-footer {
-  background-color: #B7A5A5;
-  height: 100px;
+/* -----------HOME: OUR STORY----------- */
+.story-header {
+  color: #505050;
+  font-size: 40px;
+  padding: 0px;
+}
+.story-wrapper {
+  padding: 50px 50px 50px 0px;
+  text-align: left;
+}
+.story-wrapper img {
+  padding-right: 25px;
+  width: 100%;
+  height: auto;
+  max-width: 670px;
+}
+.story-wrapper p {
+  padding-left: 40px;
+}
+.services {
+  color: #B3C6BD;
+  font-size: 22px;
 }
 
+#myBtn {
+  background-color: #909592;
+  color: #fff;
+}
+
+#more {
+  display: none;
+}
+
+
+/* -----------FOOTER----------- */
+
+.footer-wrapper {
+    padding: 0 0 100px;
+    position: relative;
+}
+
+footer {
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #B7A5A5;
+    height: 100px;
+}
 /* -----------MEDIA QUERIES----------- */
 @media screen and (max-width: 678px) {
   .burger {
@@ -169,7 +211,8 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     padding: 0;
-    transition: all 400ms;
+    transition: all 500ms;
+    z-index: 99999;
   }
   .navlink {
     text-align: center;
