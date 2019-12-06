@@ -276,6 +276,10 @@ footer {
   font-size: 40px;
   padding: 50px;
 }
+
+.container {
+  text-align: center;
+}
 /* -----------MEDIA QUERIES----------- */
 @media screen and (max-width: 678px) {
   .burger {

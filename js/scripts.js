@@ -66,3 +66,6 @@ document.addEventListener('click', function (event) {
   // Toggle our content
   content.classList.toggle('active');
 })
+
+
+// PETFINDER API
