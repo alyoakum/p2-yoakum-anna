@@ -239,7 +239,7 @@ footer {
     position:absolute;
 }
 
-/*------------ACCORDION------------*/
+/*------------ CONTACT ACCORDION------------*/
 
 .accordion-toggle {
   display: block;
@@ -262,6 +262,20 @@ footer {
   display: block;
 }
 
+/*------------ADOPT PAGE-------------*/
+.adopt-header {
+  background-color: #B7A5A5;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -35px;
+}
+
+.adopt-header h2 {
+  color: #fff;
+  font-size: 40px;
+  padding: 50px;
+}
 /* -----------MEDIA QUERIES----------- */
 @media screen and (max-width: 678px) {
   .burger {
