@@ -88,7 +88,7 @@ button {
 
 /* ----------- WHAT WE DO----------- */
 .body-container {
-  margin-top: -10px;
+  margin: 0 auto;
   text-align: center;
   background-color: #efefef;
   padding: 20px;
@@ -96,6 +96,60 @@ button {
 .body-container h2 {
   color: #505050;
   font-size: 40px;
+  padding: 50px 50px 0px 50px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #505050;
+  padding: 10px 70px 20px 70px;
+  line-height: 1.5em;
+}
+.whatwedo-wrapper {
+  display: flex;
+  margin: 15px;
+  padding-bottom: 50px;
+}
+
+.services {
+  color: #909592;
+  font-size: 22px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column-one {
+  height: 100px;
+  bottom: auto;
+}
+
+.column-two {
+  height: 100px;
+  bottom: auto;
+}
+
+.column-three {
+  height: 100px;
+  bottom: auto;
+}
+
+/* -----------FOOTER----------- */
+
+footer {
+  background-color: #B7A5A5;
+  height: 100px;
 }
 
 /* -----------MEDIA QUERIES----------- */
@@ -124,7 +178,6 @@ button {
   .nav-active {
     right: 0;
   }
-
 
   .adopt-container {
     position: relative;
@@ -166,5 +219,12 @@ button {
     margin-bottom: 20px;
   }
 
+  .body-container h2 {
+    color: #505050;
+    font-size: 24px;
+  }
+
+  .body-container h2 {
+    padding: 10px;
 
 }
